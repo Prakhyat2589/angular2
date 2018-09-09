@@ -1,0 +1,30 @@
+To create angular2
+https://cli.angular.io/
+
+To make css file work for the indivdual components
+Add: import {ViewEncapsulation} from '@angular/core';
+
+in Components({
+encapsulation: ViewEncapsulation.None})
+
+To implement carousel in angular2
+valor-software/ngx-bootstrap filter
+
+
+To getElementsByClass(""); work
+It's because getElementsByClassName return an array-like object of DOM elements.
+https://stackoverflow.com/questions/28387375/javascript-cant-get-getelementsbyclassname-working
+
+Rating:
+In order to make the any user input module work, have import the "Forms Module"
+
+To enable google maps
+1)https://angular-maps.com/guides/getting-started/
+2) Use import { AgmCoreModule } from '@agm/core'; module to work
+
+https://console.cloud.google.com/google/maps-apis/apis/geolocation.googleapis.com/credentials?project=everythingaaroundus-test&folder&organizationId&duration=PT1H
+
+To search places in goole maps
+1)https://brianflove.com/2016/10/18/angular-2-google-maps-places-autocomplete/
+2) Add /// <reference types="@types/googlemaps" /> at the top of the component.ts file
+3) npm install @types/googlemaps --save-dev
